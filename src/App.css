@@ -1,0 +1,85 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #13131b;
+  flex-direction: column;
+}
+.Input{
+  position: fixed;
+  width: 100%;
+  background-color: #13131b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px;
+
+}
+.Logo{
+  font-size: 30px;
+  font-family: fantasy;
+  color: #dddddd;
+}
+.Fetch{
+  width: 100px;
+  height: 40px;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 20px;
+  background-color: #0d7eff;
+  border: none;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.Table{
+  width: 100%;
+ padding: 5px;
+ margin-top: 80px;
+  overflow-x: auto;
+}
+td, th {
+ 
+  text-align: left;
+  padding: 10px;
+
+}
+.fetch-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.dropdown{
+  width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 0.2rem;
+}
+
+tr:nth-child(odd){
+  background-color: #252534;
+}
+tr:last-child{
+  border-bottom: 1px solid #ffffff;
+}
+td:last-child{
+  border-right: 1px solid #ffffff;
+}
+td{
+  border-left: 1px solid #ffffff;
+  color: white;
+}
+th {
+  border: 1px solid #000000;
+  background-color: #dddddd;
+  color:#13131b;
+}
+
